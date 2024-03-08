@@ -88,7 +88,7 @@ const update = ()=>{
 }
 
 /**BOTON DELETE */
-const deleteEmple = (val)=>{
+const deleteEmple = async(val)=>{
   Swal.fire({
     title: 'Confirmar eliminado?',
     html: "<i>¿Realmente desea eliminar a <strong>"+val.nombre+"</strong> ?</i>",
